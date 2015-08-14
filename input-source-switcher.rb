@@ -10,7 +10,8 @@ class InputSourceSwitcher < Formula
 		system "make", "install"
 	end
 
-	test do 
+	test do
 		system "#{bin}/issw", "-l"
 	end
 end
+
